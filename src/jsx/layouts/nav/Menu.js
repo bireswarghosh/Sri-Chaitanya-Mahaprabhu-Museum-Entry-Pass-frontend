@@ -305,6 +305,22 @@ export const MenuList = [
 
         ]
     },
+    //Museum
+    {
+        title:'Museum',
+        classsChange: 'mm-collapse',
+        iconStyle: <i className="flaticon-013-checkmark"></i>,
+        content : [
+            {
+                title:'Entry Form',
+                to: 'museum-entry',
+            },
+            {
+                title:'Data Entry',
+                to: 'data-entry',
+            },
+        ]
+    },
     //Pages
     {
         title:'Pages',

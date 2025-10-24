@@ -99,6 +99,7 @@ import Error503 from "./pages/Error503";
 import SuperAdminLogin from "./pages/SuperAdminLogin";
 import AdminLogin from "./pages/AdminLogin";
 import DataEntry from "./pages/DataEntry";
+import MuseumEntry from "./pages/MuseumEntry";
 import { ThemeContext } from "../context/ThemeContext";
 
 //Scroll To Top
@@ -190,6 +191,7 @@ const Markup = () => {
 
     /// Museum
     { url: "data-entry", component: <DataEntry/> },
+    { url: "museum-entry", component: <MuseumEntry/> },
     
   ];
 

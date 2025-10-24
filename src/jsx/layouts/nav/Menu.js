@@ -319,6 +319,10 @@ export const MenuList = [
                 title:'Data Entry',
                 to: 'data-entry',
             },
+            {
+                title:'View Entries',
+                to: 'museum-entries',
+            },
         ]
     },
     //Pages

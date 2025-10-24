@@ -22,6 +22,7 @@ import Reviews from "./components/Dashboard/Reviews";
 import Task from "./components/Dashboard/Task";
 import ManageAdmins from "./components/Dashboard/ManageAdmins";
 import ManageRoles from "./components/Dashboard/ManageRoles";
+import MuseumEntries from "./components/Dashboard/MuseumEntries";
 
 /// App
 import AppProfile from "./components/AppsMenu/AppProfile/AppProfile";
@@ -120,6 +121,7 @@ const Markup = () => {
     { url: "task", component: <Task/> },
     { url: "manage-admins", component: <ManageAdmins/> },
     { url: "manage-roles", component: <ManageRoles/> },
+    { url: "museum-entries", component: <MuseumEntries/> },
 
 
     /// Apps
